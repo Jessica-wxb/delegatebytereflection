@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7cfef18-b6d6-4072-ba4a-31f4009dd59e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/delegatebytereflection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configTV.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegatebytereflection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/AirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/HaierAirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/HaierFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/HaierTelevision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/TCLAirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/TCLFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/TCLTelevision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/XMLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AbstractFactory/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AdapterPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AdapterPattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AdapterPattern/DogAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/AdapterPattern/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/BigPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/Black.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/MiddlePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/SmallPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/BridgePattern/White.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Builder/ConcretBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Builder/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Builder/TestBuildPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Composite/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Composite/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Composite/MyElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Composite/Pear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Composite/Plate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/CompositePattern/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/CompositePattern/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/CompositePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/CompositePattern/MyElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/CompositePattern/Pear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/CompositePattern/Plate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadePattern/AirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadePattern/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadePattern/GeneralSwitchFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadePattern/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadePattern/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadeTwo/AirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadeTwo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadeTwo/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadeTwo/GeneralSwitchFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadeTwo/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FacadeTwo/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/HaierTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/HaierTVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/HisenseTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/HisenseTVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/TVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FactoryMethodPattern/XMLUtilAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FlyweightPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FlyweightPattern/DeviceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FlyweightPattern/Hub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FlyweightPattern/NetworkDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/FlyweightPattern/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/PrototypePattern/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/PrototypePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/PrototypePattern/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SimpleFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SimpleFactory/HaierTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SimpleFactory/HisenseTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SimpleFactory/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SimpleFactory/TVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SimpleFactory/XMLUtilTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SingletonPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SingletonPattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/TVChangeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/TVCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/TVOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/TVChangeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/TVCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/TVOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/TVChanageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/TVCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/TVOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/TVChangeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/TVCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/TVOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/DivNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/ModNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/MulNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/SymbolNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/ValueNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/iterator/SykwothTelevison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/iterator/TCLTelevision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/iterator/TVIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/iterator/Televison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/AbstractChatroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/ChatGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/CommonMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/DiamondMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/CareTake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/MyObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/MySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/MyObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/MySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/ConcreteStateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/ConcreteStateB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/ConcreteStateC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/ConcreteStateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/ConcreteStateB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/ConcreteStateC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/ConcreteStrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/ConcreteStrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/ConcreteClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/ConcreteClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/ConcreteClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/ConcreteClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/observer/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/observer/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/observer/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/observer/MyObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/observer/MySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteElementA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteElementB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteVisitor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteVisitor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/test/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteElementA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteElementB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteVisitor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteVisitor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/ObjectStruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteElementA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteElementB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteVisitor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteVisitor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/chainOfResponsibility/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/chainOfResponsibility/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/chainOfResponsibility/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/chainOfResponsibility/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/chainOfResponsibility/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/chainOfResponsibility/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorOne/AirPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorOne/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorOne/Changer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorOne/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorOne/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorOne/Transform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorPattern/AirPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorPattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorPattern/Changer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorPattern/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorPattern/Transform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorTwo/AirPlant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorTwo/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorTwo/Changer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorTwo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorTwo/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/decoratorTwo/Transform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/flyWeightOne/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/flyWeightOne/DevicesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/flyWeightOne/Hub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/flyWeightOne/NetworkDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/flyWeightOne/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/proxyPattern/AbstractPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/proxyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/proxyPattern/PermissionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/proxyPattern/RealPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/second/chainOfR/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/second/chainOfR/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/second/chainOfR/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/second/chainOfR/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/second/chainOfR/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/second/chainOfR/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/AbstractPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/ProxyPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/RealPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/test/AbstractPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/test/ProxyPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/secondProxy/test/RealPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denamic/springbootfilter/event/delegatebyreflection/AlarmListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denamic/springbootfilter/event/delegatebyreflection/DisplayListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denamic/springbootfilter/event/delegatebyreflection/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denamic/springbootfilter/event/delegatebyreflection/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denamic/springbootfilter/event/delegatebyreflection/HeaterEventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denamic/springbootfilter/event/delegatebyreflection/HeaterNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denamic/springbootfilter/event/delegatebyreflection/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/AirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/EFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/HaierAirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/HaierFacotry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/HaierTelevison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/TCLAirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/TCLFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/TCLTelevision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/abstractfactory/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/builder/KFCWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/builder/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/builder/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/builder/SubMealBuilderA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/builder/SubMealBuilderB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/factorymethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/factorymethod/HaierTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/factorymethod/HaierTVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/factorymethod/Hisense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/factorymethod/HisenseTVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/factorymethod/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/factorymethod/TVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/deepcloneprototype/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/deepcloneprototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/deepcloneprototype/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/extendprototype/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/extendprototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/extendprototype/MyColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/extendprototype/PrototypeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/prototype/extendprototype/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/simplefactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/simplefactory/HaierTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/simplefactory/HisenseTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/simplefactory/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reviewone/creationalpattern/simplefactory/TVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/AirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/HaierAirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/HaierFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/HaierTelevision.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/TCLAirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/TCLFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/TCLTelevision.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AbstractFactory/XMLUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AdapterPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AdapterPattern/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AdapterPattern/DogAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/AdapterPattern/Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/BigPen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/Black.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/Blue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/Green.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/MiddlePen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/Pen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/Red.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/SmallPen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/BridgePattern/White.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Builder/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Builder/ConcretBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Builder/Director.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Builder/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Builder/TestBuildPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Composite/Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Composite/Banana.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Composite/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Composite/MyElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Composite/Pear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/Composite/Plate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/CompositePattern/Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/CompositePattern/Banana.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/CompositePattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/CompositePattern/MyElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/CompositePattern/Pear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/CompositePattern/Plate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadePattern/AirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadePattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadePattern/Fan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadePattern/GeneralSwitchFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadePattern/Light.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadePattern/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadeTwo/AirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadeTwo/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadeTwo/Fan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadeTwo/GeneralSwitchFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadeTwo/Light.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FacadeTwo/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/HaierTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/HaierTVFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/HisenseTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/HisenseTVFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/TV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/TVFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FactoryMethodPattern/XMLUtilAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FlyweightPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FlyweightPattern/DeviceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FlyweightPattern/Hub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FlyweightPattern/NetworkDevice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/FlyweightPattern/Switch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/PrototypePattern/Attachment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/PrototypePattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/PrototypePattern/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SimpleFactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SimpleFactory/HaierTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SimpleFactory/HisenseTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SimpleFactory/TV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SimpleFactory/TVFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SimpleFactory/XMLUtilTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SingletonPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/SingletonPattern/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/AbstractCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/TVChangeCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/TVCloseCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/TVOpenCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandFour/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/AbstractCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/TVChangeCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/TVCloseCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/TVOpenCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandOne/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/AbstractCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/TVChanageCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/TVCloseCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/TVOpenCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandThree/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/AbstractCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/TVChangeCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/TVCloseCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/TVOpenCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/commandPattern/commandTwo/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/DivNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/ModNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/MulNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/SymbolNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/interpreterPattern/interpreterOne/ValueNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/SykwothTelevison$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/SykwothTelevison$SykworthIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/SykwothTelevison.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/TCLTelevision$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/TCLTelevision$TCLIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/TCLTelevision.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/TVIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/iterator/Televison.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mediator/AbstractChatroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mediator/ChatGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mediator/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mediator/CommonMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mediator/DiamondMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mediator/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/CareTaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/Memento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/UserInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/CareTaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/Memento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoPatternOnt/UserInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/CareTake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/Memento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/mementoPattern/mementoTest/UserInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/MyObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/MySubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/MyObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/observerPattern/observerOne/MySubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/ConcreteStateA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/ConcreteStateB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/ConcreteStateC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/ConcreteStateA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/ConcreteStateB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/ConcreteStateC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/ConcreteStrategyA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/ConcreteStrategyB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/ConcreteStrategyC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/Strategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/ConcreteStrategyA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/ConcreteStrategyB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/ConcreteStrategyC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/strategyPattern/strategy/Strategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/AbstractClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/ConcreteClassA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/ConcreteClassB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/AbstractClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/ConcreteClassA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/templatePattern/template/ConcreteClassB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/observer/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/observer/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/observer/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/observer/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/observer/MyObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/observer/MySubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteElementA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteElementB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteVisitor1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ConcreteVisitor2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/ObjectStructure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/test/visitor/Visitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteElementA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteElementB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteVisitor1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/ConcreteVisitor2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/ObjectStruct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitor/Visitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteElementA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteElementB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteVisitor1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ConcreteVisitor2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/ObjectStructure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/behavioralPattern/visitorPattern/Visitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/chainOfResponsibility/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/chainOfResponsibility/Director.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/chainOfResponsibility/GeneralManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/chainOfResponsibility/Leader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/chainOfResponsibility/LeaveRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/chainOfResponsibility/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorOne/AirPlane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorOne/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorOne/Changer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorOne/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorOne/Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorOne/Transform.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorPattern/AirPlane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorPattern/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorPattern/Changer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorPattern/Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorPattern/Transform.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorTwo/AirPlant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorTwo/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorTwo/Changer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorTwo/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorTwo/Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/decoratorTwo/Transform.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/flyWeightOne/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/flyWeightOne/DevicesFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/flyWeightOne/Hub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/flyWeightOne/NetworkDevice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/flyWeightOne/Switch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/proxyPattern/AbstractPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/proxyPattern/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/proxyPattern/PermissionProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/proxyPattern/RealPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/second/chainOfR/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/second/chainOfR/Director.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/second/chainOfR/GeneralManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/second/chainOfR/Leader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/second/chainOfR/LeaveRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/second/chainOfR/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/AbstractPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/ProxyPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/RealPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/test/AbstractPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/test/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/test/ProxyPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DesignMode/BuilderPattern/secondProxy/test/RealPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/delegatebytereflection.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/denamic/springbootfilter/event/delegatebyreflection/AlarmListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/denamic/springbootfilter/event/delegatebyreflection/DisplayListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/denamic/springbootfilter/event/delegatebyreflection/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/denamic/springbootfilter/event/delegatebyreflection/EventHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/denamic/springbootfilter/event/delegatebyreflection/HeaterEventTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/denamic/springbootfilter/event/delegatebyreflection/HeaterNotifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/denamic/springbootfilter/event/delegatebyreflection/Notifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/AirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/EFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/HaierAirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/HaierFacotry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/HaierTelevison.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/TCLAirConditioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/TCLFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/TCLTelevision.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/abstractfactory/Television.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/builder/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/builder/KFCWaiter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/builder/Meal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/builder/MealBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/builder/SubMealBuilderA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/builder/SubMealBuilderB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/factorymethod/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/factorymethod/HaierTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/factorymethod/HaierTVFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/factorymethod/Hisense.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/factorymethod/HisenseTVFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/factorymethod/TV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/factorymethod/TVFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/deepcloneprototype/Attachment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/deepcloneprototype/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/deepcloneprototype/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/extendprototype/Blue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/extendprototype/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/extendprototype/MyColor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/extendprototype/PrototypeManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/prototype/extendprototype/Red.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/simplefactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/simplefactory/HaierTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/simplefactory/HisenseTV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/simplefactory/TV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/reviewone/creationalpattern/simplefactory/TVFactory.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\Team3.0\delegatebytereflection\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UsAceQ3L7zzqMC4om5vj9pq8tE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Team3.0\delegatebytereflection" />
+      <recent name="E:\Team3.0\delegatebytereflection\src\main\java\com\denamic\springbootfilter\event\delegatebyreflection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client (4)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reviewone.creationalpattern.simplefactory.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reviewone.creationalpattern.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reviewone.creationalpattern.abstractfactory.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reviewone.creationalpattern.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reviewone.creationalpattern.builder.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reviewone.creationalpattern.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reviewone.creationalpattern.prototype.extendprototype.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reviewone.creationalpattern.prototype.extendprototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reviewone.creationalpattern.factorymethod.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reviewone.creationalpattern.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reviewone.creationalpattern.prototype.deepcloneprototype.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reviewone.creationalpattern.prototype.deepcloneprototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignMode.BuilderPattern.commandPattern.commandOne.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignMode.BuilderPattern.commandPattern.commandOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignMode.BuilderPattern.behavioralPattern.commandPattern.commandThree.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignMode.BuilderPattern.behavioralPattern.commandPattern.commandThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignMode.BuilderPattern.behavioralPattern.commandPattern.commandFour.Client" />
+      <module name="delegatebytereflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignMode.BuilderPattern.behavioralPattern.commandPattern.commandFour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client (4)" />
+        <item itemvalue="Application.Client (4)" />
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7cfef18-b6d6-4072-ba4a-31f4009dd59e" name="Default Changelist" comment="" />
+      <created>1576135010009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576135010009</updated>
+      <workItem from="1576135013357" duration="7833000" />
+      <workItem from="1576218918937" duration="22061000" />
+      <workItem from="1576550071254" duration="103962000" />
+      <workItem from="1577314569106" duration="50008000" />
+      <workItem from="1577707320866" duration="14105000" />
+      <workItem from="1578919811240" duration="49000" />
+      <workItem from="1578919927185" duration="90000" />
+      <workItem from="1580713692463" duration="475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1580714218350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580714218350" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1580713787062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580713787062" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/Builder/TestBuildPattern.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SingletonPattern/Singleton.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SingletonPattern/Client.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SingletonPattern/Client.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/SingletonPattern/Client.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/statePattern/stateOne/Context.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/Client.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/Client.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignMode/BuilderPattern/behavioralPattern/mediator/Member.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

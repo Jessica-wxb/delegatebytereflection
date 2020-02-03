@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config xmlns="http://www.springframework.org/schema/aop">
+    <className>HaierFactory</className>
+</config>
